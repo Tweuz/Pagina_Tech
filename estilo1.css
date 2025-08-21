@@ -1,0 +1,67 @@
+.Topo {
+     background-color: blue;
+    display: flex;
+    justify-content: stretch; /* Estica o conteúdo horizontalmente */
+    align-items: stretch;     /* Estica verticalmente */
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+}
+
+
+.Logo {
+    width: 100%;   /* Ocupa toda a largura */
+    height: 100%;  /* Ocupa toda a altura */
+    object-fit: cover; /* Garante que a imagem cubra todo o espaço */
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: red ; /* Cor dos links */
+    text-decoration: underline; /* Sublinha os links */
+    transition: color 0.2s; /* Transição suave para a mudança de cor */
+}
+
+
+/* Estilização Geral da Página */
+body {
+    background-image: url('🌍\ Mundo\ Tech.'); /* Imagem de fundo */
+   
+}
+header h1 {
+    margin: 0; /* Remove a margem padrão do h1 */
+}
+/* Estilização do Conteúdo Principal */
+main {
+    max-width: 800px; /* Largura máxima do conteúdo */
+    margin: 2rem auto; /* Centraliza o main na página com margem */
+    padding: 1rem 2rem;
+    background-color: blue; /* Cor de fundo do conteúdo principal */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+}
+
+main h3, main p {
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 1rem 0;
+}
+
+/* Estilização do Rodapé */
+footer {
+    text-align: center; 
+    padding: 1rem;
+    background-color: blue; /* Cor de fundo do rodapé */
+    color: black;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+footer p {
+    text-align: center !important;
+    margin: 0;
+    padding: 10px 0;
+}
